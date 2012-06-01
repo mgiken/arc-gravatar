@@ -10,3 +10,6 @@ install:
 
 uninstall:
 	rm -rf $(libdir)/gravatar.arc
+
+test:
+	prove -fe arc t
